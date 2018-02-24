@@ -26,11 +26,18 @@ namespace WebApplicationForGitSilBunu.Controllers
 
             return View();
         }
-
+        
         public ActionResult Sleep()
         {
             return View();
         }
+
+        public ActionResult Sleep2()
+        {
+            return View();
+        }
+
+        //sfdsfdsfd dasdas  dfsdgsd dsfsdfdsfs 
         //sfdsfdsfd dasdas  Master Branch 
     }
 }
