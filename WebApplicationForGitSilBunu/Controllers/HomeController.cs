@@ -27,7 +27,6 @@ namespace WebApplicationForGitSilBunu.Controllers
             return View();
         }
         
-
         public ActionResult Sleep()
         {
             return View();
