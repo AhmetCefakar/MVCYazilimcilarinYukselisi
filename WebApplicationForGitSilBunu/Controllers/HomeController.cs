@@ -31,6 +31,6 @@ namespace WebApplicationForGitSilBunu.Controllers
         {
             return View();
         }
-        //sfdsfdsfd dasdas 
+        //sfdsfdsfd dasdas  Master Branch 
     }
 }
