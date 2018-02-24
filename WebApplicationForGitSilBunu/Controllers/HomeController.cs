@@ -38,6 +38,6 @@ namespace WebApplicationForGitSilBunu.Controllers
             return View();
         }
 
-        //sfdsfdsfd dasdas 
+        //sfdsfdsfd dasdas  dfsdgsd dsfsdfdsfs 
     }
 }
