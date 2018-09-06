@@ -1,0 +1,29 @@
+﻿@*Bu sayfa bir '_Layout'u kullanan bir layout sayfasıdır*@
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style type="text/css">
+    .block1 {
+        display: inline-block;
+        margin: 5px;
+        padding: 10px;
+        border: 2px dotted #4cff00;
+    }
+</style>
+
+<div class="block1" style="width:660px;">
+    @RenderBody()
+</div>
+
+<div class="block1" style="float:right;">
+    <h4>İletişim Numaraları</h4>
+    <ul>
+        <li>0224 234 45 67</li>
+        <li>0224 234 45 66</li>
+        <li>0224 234 45 68</li>
+    </ul>
+</div>
+
+

@@ -1,0 +1,20 @@
+﻿
+@using WebApplicationForGitSilBunu.MyLibraries; @*Kendi yazdığım extension Html helper methodlarını kullanmak için eklendi*@
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Extension Html Helper Methods</h2>
+
+
+@Html.Button("btn1", ButtonType.button, "Yolla Gardaş")
+<br />
+@Html.Button(id: "btn2", type: ButtonType.button, text: "Yolla Gardaş Varsayılan ile")
+<br />
+@Html.Button("btn3", ButtonType.reset, "Bu Tag Builder", "btn btn-success")
+
+
+<br />
+@HttpUtility.HtmlEncode("<b>Ahmet Cefakaş</b>")

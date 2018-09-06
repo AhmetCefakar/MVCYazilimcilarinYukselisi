@@ -1,0 +1,12 @@
+﻿
+@{
+    ViewBag.Title = "HttpHelperExample";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>HttpHelperExample</h2>
+
+Name  : @Html.DisplayText("Name") <br />
+Age   : @Html.DisplayText("Age") <br />
+Check : @Html.CheckBox("Check") <br />
+Dorp List: @Html.DropDownList("listName")

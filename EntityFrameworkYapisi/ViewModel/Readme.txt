@@ -1,0 +1,1 @@
+﻿'ViewModel'yapısı veritabanındaki tabloların bire bir modeli olmayan sadece belirli sayfalarda kullanılan modellerin tutulması için faydalanılan modellerdir.
